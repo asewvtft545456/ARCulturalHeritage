@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v7.2.2">
+        <ModelTarget name="AT1600" targetId="0bba2f0239f0417d924cf42a651b10ad" bbox="-0.112075 0.012080 -0.125350 -0.011271 0.065590 -0.019977" version="14.0" toolVersion="v7.2.2" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+        <ModelTarget name="AT054_doorjamb" targetId="23127baaab3d4cd8a2e348c88f13584b" bbox="-0.081000 -0.003795 0.602584 -0.000000 0.027854 0.631814" version="14.0" toolVersion="v7.2.2" trackingMode="car" upVector="0.0 -1.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+        <ModelTarget name="AT290292_top_pilasterblock" targetId="8b504d14320a40899ac82b2cdb7fe074" bbox="-4.984419 -0.577267 0.104175 -4.911356 -0.541032 0.135993" version="14.0" toolVersion="v7.2.2" trackingMode="car" upVector="0.0 0.0 -1.0" optimizeTrackingFor="default" realisticTextures="no" />
+        <ModelTarget name="AT186" targetId="7f9364e462b742ed96659466e0c3d6fb" bbox="-20.986149 0.061859 1.151093 -19.811148 0.491859 2.661093" version="14.0" toolVersion="v7.2.2" trackingMode="car" upVector="0.0 -1.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+        <ModelTarget name="AT638" targetId="2d227e0c285f4e6b9a4f4be3878cc5f7" bbox="6.121672 0.000000 -0.247272 7.219649 0.428845 0.466402" version="14.0" toolVersion="v7.2.2" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+    </TargetSet>
+    <Assembly name="AT1600" assemblyId="3410eee360a541c7ab73792305003cff">
+        <Part name="AT1600" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="AT054_doorjamb" assemblyId="d8f7c653e5034785b8c533c8568452f8">
+        <Part name="AT054_doorjamb" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="AT290292_top_pilasterblock" assemblyId="78eb5393ef474fd188085c15a1946a05">
+        <Part name="AT290292_top_pilasterblock" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="AT186" assemblyId="8bac9745070b470d8b90f24df0c4f239">
+        <Part name="AT186" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="AT638" assemblyId="057324468a374207acc9296221484532">
+        <Part name="AT638" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <ModelTargetDatabase mtDBid="3d852068f78a4f358bc9a92cdcd66538" name="AllBlocks" toolVersion="v7.2.2" version="36.0" />
+</QCARInfo>

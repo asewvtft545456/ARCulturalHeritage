@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v7.2.2">
+        <ModelTarget name="AT429_SingleBlock" targetId="71314aaa05c140a1b89a39f6a51b3339" version="14.0" toolVersion="v7.2.2" bbox="-13.951935 1.135127 7.853601 -13.351565 1.518093 9.005672" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+    </TargetSet>
+    <Assembly name="AT429_SingleBlock" assemblyId="b69df8bf569b41aeb939cfbef23fff3f">
+        <Part name="AT429_SingleBlock" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+</QCARInfo>

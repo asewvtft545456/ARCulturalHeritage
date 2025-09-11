@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v7.2.2">
+        <ModelTarget name="AT429_SingleBlock" targetId="fd91c75777174f22b57ae631a4e6995a" bbox="-13.951935 1.135127 7.853601 -13.351565 1.518093 9.005672" version="14.0" toolVersion="v7.2.2" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+        <ModelTarget name="AT290292_top_pilasterblock" targetId="d9a26c9a30324e75b722d3145c476be5" bbox="-4.984419 -0.577267 0.104175 -4.911356 -0.541032 0.135993" version="14.0" toolVersion="v7.2.2" trackingMode="car" upVector="0.0 0.0 -1.0" optimizeTrackingFor="default" realisticTextures="no" />
+        <ModelTarget name="AT054_doorjamb" targetId="32b3d5b364354b3f8c4d07029e6c4820" bbox="-0.081000 -0.003795 0.602584 -0.000000 0.027854 0.631814" version="14.0" toolVersion="v7.2.2" trackingMode="car" upVector="0.0 -1.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+        <ModelTarget name="AT1600" targetId="c993c80158f64e68a46819f3f8ca4546" bbox="-0.112075 0.012080 -0.125350 -0.011271 0.065590 -0.019977" version="14.0" toolVersion="v7.2.2" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+    </TargetSet>
+    <Assembly name="AT429_SingleBlock" assemblyId="1c77bc06aa4f48e1b7f2a5f18c497320">
+        <Part name="AT429_SingleBlock" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="AT290292_top_pilasterblock" assemblyId="b331ae06210d42d78c4a4bd74c81c7ff">
+        <Part name="AT290292_top_pilasterblock" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="AT054_doorjamb" assemblyId="d0858b7f6fee40a8901622aa2a4726af">
+        <Part name="AT054_doorjamb" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="AT1600" assemblyId="0984b712fb3249e492ebcb05a04aab55">
+        <Part name="AT1600" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <ModelTargetDatabase mtDBid="8c95fc00c76245f69ba97d880ea12d42" name="Blocks" toolVersion="v7.2.2" version="36.0" />
+</QCARInfo>

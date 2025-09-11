@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v7.2.0">
+        <ModelTarget name="AT290292_top_pilasterblock" targetId="a78e2f7b942c48ae8287afc82bf9bf2c" bbox="-4.984419 -0.577267 0.104175 -4.911356 -0.541032 0.135993" version="14.0" toolVersion="v7.2.0" trackingMode="car" upVector="0.0 0.0 -1.0" optimizeTrackingFor="default" realisticTextures="no" />
+        <ModelTarget name="AT054_doorjamb" targetId="14a8d25ff6494acdb54d292bea7a77d6" bbox="-0.081000 -0.003795 0.602584 -0.000000 0.027854 0.631814" version="14.0" toolVersion="v7.2.0" trackingMode="car" upVector="0.0 -1.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+        <ModelTarget name="AT1600" targetId="c08edd6b919a4cdca0cd45b3ebc4f58e" bbox="-0.112075 0.012080 -0.125350 -0.011271 0.065590 -0.019977" version="14.0" toolVersion="v7.2.0" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+    </TargetSet>
+    <Assembly name="AT290292_top_pilasterblock" assemblyId="f8966c6ad8b846c6ae192c470fa6d4f7">
+        <Part name="AT290292_top_pilasterblock" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="AT054_doorjamb" assemblyId="faaf46602de648edb668a5180dab7770">
+        <Part name="AT054_doorjamb" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="AT1600" assemblyId="83b4ef68ea97495e82c93c4d6a66095b">
+        <Part name="AT1600" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <ModelTargetDatabase mtDBid="af7a26cd72c24d509fc6ab5b36d69d37" name="AT290292_top_pilasterblock" toolVersion="v7.2.0" version="36.0" />
+</QCARInfo>
