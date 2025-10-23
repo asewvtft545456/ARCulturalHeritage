@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v7.3.1">
+        <ModelTarget name="AT133" targetId="709072f6b35f452bb1b79ee49886b2fa" bbox="-21.645834 -0.258990 -1.932687 -20.692904 0.258990 -0.979756" version="14.0" toolVersion="v7.3.1" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+        <ModelTarget name="AT134" targetId="4a34068364af44cca653eaa98565a2b6" bbox="1.442677 0.650320 -5.078096 6.427324 3.303878 -1.877353" version="14.0" toolVersion="v7.3.1" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+    </TargetSet>
+    <Assembly name="AT133" assemblyId="df136714f8fa48e995ccf60dd4d607e1">
+        <Part name="AT133" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="AT134" assemblyId="6863c42f5adb4155985f82e67f909687">
+        <Part name="AT134" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <ModelTargetDatabase mtDBid="aff63595a3444f349c65f9c22596b76e" name="UpdateVIPBlock" toolVersion="v7.3.1" version="36.0" />
+</QCARInfo>

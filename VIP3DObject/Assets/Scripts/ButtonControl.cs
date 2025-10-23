@@ -9,6 +9,7 @@ public class ButtonControl : MonoBehaviour
     public Text objectNameText; // Legacy UI Text component
     public GameObject infoCanvas;
     public GameObject displayer;
+    public GameObject tab;
     
     void Start()
     {
@@ -25,7 +26,7 @@ public class ButtonControl : MonoBehaviour
 
     public void showJustText()
     {
-        //infoCanvas.SetActive(true);
+        tab.SetActive(true);
         objectNameText.gameObject.SetActive(true);
         displayer.SetActive(false);
         //rawImage.texture = null;
@@ -34,7 +35,7 @@ public class ButtonControl : MonoBehaviour
 
     public void showJustImages()
     {
-        //infoCanvas.SetActive(true);
+        tab.SetActive(false);
         objectNameText.gameObject.SetActive(false);
         displayer.SetActive(true);
         
