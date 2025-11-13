@@ -978,6 +978,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 0.2
   orientation: 0
+  verticalClampAngle: 20
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -2045,6 +2046,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 0.2
   orientation: 0
+  verticalClampAngle: 20
 --- !u!1 &873439914
 GameObject:
   m_ObjectHideFlags: 0
@@ -3327,6 +3329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 0.2
   orientation: 0
+  verticalClampAngle: 20
 --- !u!1 &1413170990
 GameObject:
   m_ObjectHideFlags: 0
@@ -5001,6 +5004,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 0.2
   orientation: 2
+  verticalClampAngle: 20
 --- !u!1 &1895222750
 GameObject:
   m_ObjectHideFlags: 0

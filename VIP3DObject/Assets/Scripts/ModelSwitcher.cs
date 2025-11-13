@@ -6,6 +6,7 @@ public class ModelSwitcher : MonoBehaviour
     public GameObject reconstructed;
     public GameObject scanned;
     public Text text;
+    public static string modelMode;
 
     private bool showing = true;
 
@@ -13,6 +14,8 @@ public class ModelSwitcher : MonoBehaviour
     {
         // Ensure AT1600 is active and AT1600_SC is hidden initially
         reconstructed.SetActive(true);
+        modelMode = "Reconstructed";
+
         text.text = "Scanned";
         scanned.SetActive(false);
     }
@@ -25,10 +28,12 @@ public class ModelSwitcher : MonoBehaviour
         scanned.SetActive(!showing);
         if (reconstructed.activeSelf)
         {
+            modelMode = "Reconstructed";
             text.text = "Scanned";
         } else
         {
             text.text = "Reconstructed";
+            modelMode = "Scanned";
         }
     }
 }
