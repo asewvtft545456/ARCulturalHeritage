@@ -83,6 +83,47 @@ public class ObjectDetectionHandlerLegacy : MonoBehaviour
             "<b>Placement:</b> Was found about 20 m. southwest of the temple, and it is restored at the right front corner of the podium.";
         blockName["AT638"] = "AT638";
 
+        blockInfo["AT308"] = "<b>Description:</b> \n\n" + "<b>Placement:</b> ";
+        blockName["AT308"] = "AT308";
+
+        blockInfo["AT145"] = "<b>Description:</b> \n\n" + "<b>Placement:</b> ";
+        blockName["AT145"] = "AT145";
+
+        blockInfo["AT146"] = "<b>Description:</b> \n\n" + "<b>Placement:</b> ";
+        blockName["AT146"] = "AT146";
+
+        blockInfo["AT175"] = "<b>Description:</b> Fragment of the top column drum of the shaft of the column. It is not known if the column consisted of 2 or 3 column drums. In either case, the columns were unfluted, and were made of the same marble as throughout the temple, and had entasis and a smaller diameter at the upper part. This frament preserves the upper resting surface of the column, where the column capital would be supported. It bears a dowel hole, for the alignment and fastening of the capital.\n\n" +
+            "<b>Placement:</b> This column drum was found to the southeast of the temple and is restored at the rightmost column.";
+        blockName["AT175"] = "AT175";
+
+        blockInfo["AT173"] = "<b>Description:</b> Column capital, the best preserved of the four original ones. The capital is of the corinthian genus, bearing stylized acanthus leaves and tendrils in the corners and the middle part of the capital. The corinthian order was commonly used in Imperial Roman Architecture, as the most ornate order. \n\n" +
+            "<b>Placement:</b> Found in the SW quadrant.";
+        blockName["AT173"] = "AT173";
+
+        blockInfo["AT085"] = "<b>Description:</b> This base bears the scotia-torus-scotia molding in three sides with bilateral symmetry and thus is identified as the anta base, meaning the base to the buldging extension of one of the two lateral walls of the cella.\n\n" +
+            "<b>Placement:</b> Anta base found in NW quadrant, and restored on the left side of the temple.";
+        blockName["AT085"] = "AT085";
+
+        blockInfo["AT159"] = "<b>Description:</b> \n\n" + "<b>Placement:</b> ";
+        blockName["AT159"] = "AT159";
+
+        //Combine 091 and 051
+        blockInfo["AT091"] = "<b>Description:</b> Right side of the door lintel of the entrance to the cella. It continues the three-fasciate door frame at the top, which is crowned by a lintel, framed by a scroll in either end.\n\n" +
+            "<b>Placement:</b> It was found in the northwest quadrant along with the other corner of the lintel.";
+        blockName["AT091"] = "AT091";
+
+        blockInfo["AT051"] = "<b>Description:</b> Left side of the door lintel of the entrance to the cella. It continues the three-fasciate door frame at the top, which is crowned by a lintel, framed by a scroll in either end.\n\n" +
+            "<b>Placement:</b> It was found in the northwest quadrant along with the other corner of the lintel.";
+        blockName["AT051"] = "AT051";
+        //Combine 091 and 051
+
+        blockInfo["AT188"] = "<b>Description:</b> \n\n" + "<b>Placement:</b> ";
+        blockName["AT188"] = "AT188";
+
+        blockInfo["AT421"] = "<b>Description:</b> This is a corner block of the architrave. It includes three fasciae of increasing height crowned by a simple ovolo and cavetto. It's short length shows that it could not have spanned the opening between columns, and has to be restored in the cella, over the wall blocks. \n\n" +
+            "<b>Placement:</b> It was found at the northeast of the temple, and it is restored at the rear left corner of temple.";
+        blockName["AT421"] = "AT421";
+
         switchCanvas.SetActive(false);
         infoCanvas.SetActive(false);
         //imagesCanvas.SetActive(false);

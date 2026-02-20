@@ -8,9 +8,20 @@ public class ButtonControl : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public Text objectNameText; // Legacy UI Text component
     public GameObject infoCanvas;
+
     public GameObject displayer;
     public GameObject tab;
-    
+    public GameObject placePic;
+
+    public RawImage coverImage;
+    public RawImage covertext;
+    public RawImage coverPlace;
+
+    public Outline imageOutline;
+    public Outline textOutline;
+    public Outline placemtnOutline;
+
+
     void Start()
     {
         
@@ -26,9 +37,18 @@ public class ButtonControl : MonoBehaviour
 
     public void showJustText()
     {
+        imageOutline.enabled = false;
+        placemtnOutline.enabled = false;
+        textOutline.enabled = true;
+
+        coverImage.enabled = false;
+        coverPlace.enabled = false;
+        covertext.enabled = true;
+
         tab.SetActive(true);
         objectNameText.gameObject.SetActive(true);
         displayer.SetActive(false);
+        placePic.SetActive(false);
         //rawImage.texture = null;
        
     }
@@ -37,7 +57,31 @@ public class ButtonControl : MonoBehaviour
     {
         tab.SetActive(false);
         objectNameText.gameObject.SetActive(false);
+        placePic.SetActive(false);
         displayer.SetActive(true);
-        
+            
+        imageOutline.enabled = true;
+        textOutline.enabled = false;
+        placemtnOutline.enabled = false;
+
+        coverImage.enabled = true;
+        covertext.enabled = false;
+        coverPlace.enabled = false;
+    }
+
+    public void showPlacement()
+    {
+        tab.SetActive(false);
+        objectNameText.gameObject.SetActive(false);
+        displayer.SetActive(false);
+        placePic.SetActive(true);
+
+        imageOutline.enabled = false;
+        textOutline.enabled = false;
+        placemtnOutline.enabled = true;
+
+        coverImage.enabled = false;
+        covertext.enabled = false;
+        coverPlace.enabled = true;
     }
 }
